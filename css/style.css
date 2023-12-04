@@ -4,10 +4,10 @@
   padding: 0;
 }
 
-/* @font-face {
+@font-face {
   font-family: myFont;
-  src: url(../font/CinzelDecorative-Regular.ttf);
-} */
+  src: url(../font/Montserrat-LightItalic.ttf);
+}
 
 a {
   text-decoration: none;
@@ -233,7 +233,7 @@ body {
   justify-content: center;
 }
 .aboutme {
-  height: 70vh;
+  height: 30rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -269,7 +269,7 @@ body {
 
 
 .about p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   margin: 2rem 6rem;
   font-size: 1.2rem;
 }
@@ -303,15 +303,15 @@ body {
 .naslov {
   /* background-color: #671724; */
   background-color:  #671724;
-
+height: 28rem;
   box-shadow: 1px 1px 8px rgba(58, 40, 45, 0.519);
-  padding: 5rem;
+  padding: 2rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: flex-start;
+gap:3rem}
 
 .skills {
   display: flex;
@@ -352,6 +352,7 @@ background-color: white;
   box-shadow: 1px 1px 8px rgba(58, 40, 45, 0.519);
 /* overflow: scroll; */
   height: auto;
+  width: 100vw;
   padding: 5rem 3rem;
   display: flex;
   flex-direction: column;
@@ -562,14 +563,14 @@ footer {
 
 #goUp {
   position: fixed;
-  bottom: 0.5rem;
+  bottom: 3rem;
   right: 0.5rem;
   z-index: 9999;
   font-size: 2rem;
   border: none;
   outline: none;
   background-color: #671724;
-  color: #4c4556;
+  color: #f6c026;
   box-shadow: 3px 3px 20px rgba(58, 40, 45, 0.519);
   cursor: pointer;
   padding: 0 0.8rem 0.2rem;
@@ -578,4 +579,5 @@ footer {
 
 #goUp:hover {
   background-color: #f6c026;
+  color: #671724;
 }
