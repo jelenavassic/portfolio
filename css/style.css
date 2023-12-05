@@ -19,10 +19,10 @@ ul {
 html,
 body {
   font-family: myFont;
-  /* width: 90vw; */
+  width: 100vw;
   margin: 0 auto;
   scroll-behavior: smooth;
-  background-color: white;
+  background-color: black;
   color: #f6c026;
 }
 /* Hex: 4C4556 / 872642 / F6C026 / A0D3F9 */
@@ -89,11 +89,11 @@ body {
 
 #hamitems ul li a {
   text-decoration: none;
-  color:  #f6c026; /* Set the text color for the navigation items */
+  color:  #f6c026; 
 }
 
 #hamitems ul li a:hover {
-  color: #f6c026; /* Set the hover color for the navigation items */
+  color: #671724; 
 }
 
 #nav {
@@ -144,6 +144,7 @@ body {
 
 
 #main {
+  width: 100%;
   background-color: white;
   height: 100vh;
   flex-wrap: wrap;
@@ -238,7 +239,8 @@ body {
 }
 .about h2{
   color: #671724;
-
+  margin-top: 2%;
+ 
 }
 .aboutme {
   /* height: 30rem; */
@@ -249,7 +251,7 @@ body {
   justify-content: center;
 }
 #profilePic{
-  width: 30%;
+  width: 35%;
 }
 #profilePic img {
   height: 60%;
@@ -366,7 +368,7 @@ background-color: #671724;
   box-shadow: 1px 1px 8px rgba(58, 40, 45, 0.519);
 /* overflow: scroll; */
   height: auto;
-  width: 100vw;
+  /* width: 100vw; */
   padding: 5rem 3rem;
   display: flex;
   flex-direction: column;
@@ -483,6 +485,7 @@ background-color: #671724;
 }
 
 #form {
+  
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
