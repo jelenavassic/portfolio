@@ -6,6 +6,7 @@ const hamburgerMenu = document.querySelector(".hamburger-menu");
 const navItems = document.getElementById("hamitems");
 const navigation = document.getElementById("nav");
 const hamnav = document.getElementById("hamnav");
+const revealText = document.querySelector(".reveal-text");
 
 window.addEventListener("scroll", handleScrollAnimation);
 
@@ -102,7 +103,7 @@ function isElementInViewport(el) {
 }
 
 function handleScrollAnimation() {
-  var revealText = document.querySelector(".reveal-text");
+  // var revealText = document.querySelector(".reveal-text");
   if (isElementInViewport(revealText)) {
     revealText.classList.add("reveal");
   }

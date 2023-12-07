@@ -381,6 +381,7 @@ background-color: #671724;
 
 .slike {
   padding-top: 3rem;
+  /* padding-bottom: 3rem; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
