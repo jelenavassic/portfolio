@@ -148,12 +148,10 @@
   /* .mainText{
     align-items: flex-start;
   } */
-.project{
-  width: 100%;
-}
+
   .project img {
-    width: 35rem;
-    height: 25rem;
+    width: 30rem;
+    height: 20rem;
   }
 
 .desc{
@@ -231,7 +229,9 @@ padding: 0.9rem;
   /* .mainText h2{
     font-size: 2rem;
   } */
-
+.projekti{
+  padding: 5rem 1rem;
+}
   .project img {
     width: 100%;
     height: 100%;
