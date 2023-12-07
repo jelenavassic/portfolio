@@ -34,6 +34,7 @@ let menuResize = function () {
   } else {
     navigation.style.display = "none";
     hamnav.style.display = "block";
+    goUp.style.display = "block";
   }
 };
 window.addEventListener("resize", menuResize);
@@ -57,20 +58,6 @@ document.getElementById("form").addEventListener("submit", function (event) {
 });
 
 
-// let menuResize = function () {
-//   if (window.innerWidth > 599) {
-//     navItems.classList.remove("show");
-//     navigation.style.display = "flex";
-//     hamnav.style.display = "none";
-//   } else {
-//     navigation.style.display = "none";
-//     hamnav.style.display = "flex";
-//   }
-// };
-
-
-// window.addEventListener("resize", menuResize);
-// menuResize();
 
 window.onscroll = function () {
   scrollFunction();
