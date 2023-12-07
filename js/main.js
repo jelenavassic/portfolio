@@ -34,7 +34,7 @@ let menuResize = function () {
   } else {
     navigation.style.display = "none";
     hamnav.style.display = "block";
-    goUp.style.display = "block";
+    revealText.classList.add("reveal")
   }
 };
 window.addEventListener("resize", menuResize);
@@ -91,7 +91,7 @@ function check(e) {
 }
 
 function isElementInViewport(el) {
-  var rect = el.getBoundingClientRect();
+  let rect = el.getBoundingClientRect();
   return (
     rect.top >= 0 &&
     rect.left >= 0 &&
