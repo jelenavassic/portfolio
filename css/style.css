@@ -76,7 +76,7 @@ body {
   width: 35vw;
   background-color: white; /* Final white background when the #hamitems has the 'show' class */
 
-  animation: up 2s ease-in-out;
+  animation: up 1s ease-in-out;
 
 }
 
@@ -158,7 +158,7 @@ body {
   position: fixed;
   top: 20%;
   left: 5%;
-}
+ }
 .mainText {
   width: 50%;
   display: flex;
@@ -173,19 +173,19 @@ body {
 .mainText h1 {
   position: relative;
   font-size: 2rem;
-  animation: left 5s ease;
+  animation: left 2s ease;
 }
 .mainText h2 {
   position: relative;
   font-size: 3rem;
-  animation: left 6s ease-in-out;
+  animation: left 3s ease-in-out;
 }
 .button {
   position: relative;
   background-color: #f6c026;
   padding: 1.2rem 1.8rem;
   border-radius: 20px;
-  animation: left 9s ease-in-out, jump 1s infinite alternate 1s;
+  animation: left 4s ease-in-out, jump 1s infinite alternate 1s;
 }
 
 @keyframes jump {
@@ -210,7 +210,7 @@ body {
 .button a {
   font-size: 2rem;
   font-weight: bold;
-  color: #979797;
+  color: #671724;
 }
 
 .button:hover {
@@ -256,6 +256,7 @@ body {
 #profilePic img {
   height: 60%;
   margin-left: 2rem;
+  z-index: 1000;
 }
 
 .content {
@@ -269,14 +270,14 @@ body {
 
 .reveal-text {
   opacity: 0;
-  transform: translateX(-8rem); /* Initially, move text down */
+  transform: translateX(-8rem); 
   transition: opacity 1s, transform 5s;
   
 }
 
 .reveal-text.reveal {
   opacity: 1;
-  transform: translateX(0); /* Move text to its original position */
+  transform: translateX(0); 
 }
 
 
@@ -342,14 +343,15 @@ gap:3rem}
   align-items: center;
   justify-content: space-around;
   border: 2px solid  #4c4556;
-padding: 1rem;
+padding: 2%;
   /* background-color: white; */
-  border-radius: 50%;
+  border-radius:10%;
   width: 15rem;
   /* height: 10rem; */
   transition: background-color 0.3s ease-in-out;  
 
 }
+ 
 .skill:hover{
  
 background-color: #671724;
@@ -457,7 +459,7 @@ background-color: #671724;
   width: 7rem;
   background-color: #fff;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   z-index: 3;
 }
 
@@ -516,7 +518,7 @@ gap: 1rem;
   /* border: 3px solid #f6c026; */
   background-color: white;
   padding: 1rem;
-}
+ }
 
 #error {
   display: none;

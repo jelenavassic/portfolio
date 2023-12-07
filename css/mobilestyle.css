@@ -291,7 +291,8 @@ padding: 0.9rem;
      }
    .text{
     width: 100%;
-    }
+    font-size: 50%;
+     }
    #submit{
     width: 50%;
    }
