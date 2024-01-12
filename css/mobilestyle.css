@@ -1,98 +1,17 @@
-/* @media only screen and (max-device-width: 768px) {
-  #nav {
-    display: none;
-  }
-
-
-  #hamitems li a {
-    display: block;
-    width: 100%;
-    color: #ea294c;
-  }
-
-  #hamnav label {
-    display: inline-block;
-    color: #3a5d96;
-    background: #f38ea0;
-    padding: 10px;
-  }
-
-  #hamitems {
-    display: none;
-  }
-  #hamnav input:checked ~ #hamitems {
-    display: block;
-  }
-
-  #hamnav {
-    position: fixed;
-    top: 1.5rem;
-    right: 4rem;
-  }
-
-  .mainText {
-    margin: -2rem;
-    color: #58729c;
-    gap: 2rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-
-  .mainText h1 {
-    font-size: 3rem;
-  }
-  .mainText h2 {
-    font-size: 2rem;
-  }
-  .button a {
-    font-size: 100%;
-  }
-  .about p {
-    font-size: 1rem;
-    margin: 3rem 2rem;
-  }
-  .skills {
-    margin: 4rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: auto;
-  }
-  .skill {
-    width: auto;
-  }
-  .slike {
-    flex-direction: column;
-    height: 100%;
-  }
-  .project img {
-    width: auto;
-  }
-  #form,
-  #form input,
-  #form textarea {
-    width: 100%;
-  }
-} */
-
 @media only screen and (max-width: 1200px) {
-
   .project img {
     width: 25rem;
     height: 18rem;
   }
 
-  .desc{
+  .desc {
     height: 19rem;
     font-size: 1.1rem;
-
   }
-  /* .about{
-    padding-bottom: 3rem;
-  } */
- .about p{
-  font-size: 1.2rem;
- }
-  
+
+  .about p {
+    font-size: 1.2rem;
+  }
 }
 
 /* /* Medium devices (landscape tablets, 768px and up) */
@@ -106,206 +25,162 @@
   .button a {
     font-size: 1.8rem;
   }
-  /* .project img {
-    height: 10rem;
-  }
-  .seeMore {
-    padding: 0.8rem;
-    width: 6rem;
-  } */
+
   .skill {
     padding: 0.5rem;
   }
- 
+
   .about p {
-     margin: 2rem 4rem;
+    margin: 2rem 4rem;
     font-size: 1.1rem;
   }
-  #profilePic{
-    margin-right:1rem;
-   }
-   #profilePic img{
+  #profilePic {
+    margin-right: 1rem;
+  }
+  #profilePic img {
     height: 50%;
-   }
+  }
 }
 
 /* /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (max-width: 768px) {
-  /* h2{
-    font-size: 1.5rem;
-  }
-  .mainText h2 {
-    font-size: 2.1rem;
-  }
-  .button {
-    padding: 1rem 1.5rem;
-    
-  }
-  .naslov{
-    padding: 2rem;
-  } */
-  /* .mainText{
-    align-items: flex-start;
-  } */
-
   .project img {
     width: 30rem;
     height: 20rem;
   }
 
-.desc{
-  height: 21rem;
-}
-.naslov{
-  height: 25rem;
+  .desc {
+    height: 21rem;
+  }
+  .naslov {
+    height: 25rem;
+  }
 
-}
- 
-.mainText h2 {
-   font-size: 1.8rem;
- }
-.about p{
-  margin: 2rem 4rem;
+  .mainText h2 {
+    font-size: 1.8rem;
+  }
+  .about p {
+    margin: 2rem 4rem;
     font-size: 1rem;
-  
-}
-#profilePic img {
-  height: 40%;
-  align-self: center;
- }
+  }
+  #profilePic img {
+    height: 40%;
+    align-self: center;
+  }
 
-.text{
-  width: 50%;
-  /* height: 3rem; */
- }
- #form{
-  width: 90%;
- }
-#form textarea {
-width: 100%;
- 
-}
-.flex-row{
-  width: 100%;
-}
-/* #profilePic img{
-  width: 10rem;
- } */
+  .text {
+    width: 50%;
+  }
+  #form {
+    width: 90%;
+  }
+  #form textarea {
+    width: 100%;
+  }
+  .flex-row {
+    width: 100%;
+  }
 }
 
-
-@media only screen and (max-width: 600px){
-  /* #main{
-    flex-direction: column;
-  } */
-  #main img{
+@media only screen and (max-width: 600px) {
+  #main img {
     position: relative;
     width: 40%;
     margin-top: 10%;
-    }
-   .align-center{
+  }
+  .align-center {
     display: flex;
     align-items: center;
     justify-content: center;
-   }
-.mainText{
-  width: 100%;
-  margin-bottom: 1rem;
-  margin-right: 0;
-}
-#main h2{
-  font-size: 1.5rem;
-}
-.button{
-margin-bottom: 1rem;
-padding: 0.9rem;
- }
- .button a{
-  font-size: 1.3rem;
+  }
+  .mainText {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  #main h2 {
+    font-size: 1.5rem;
+  }
+  .button {
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+  }
+  .button a {
+    font-size: 1.3rem;
+  }
+  #hamitems ul {
+    height: 40vh;
+  }
 
- }
- #hamitems ul{height: 40vh;}
-  /* .mainText h2{
-    font-size: 2rem;
-  } */
-.projekti{
-  padding: 5rem 1rem;
-}
+  .projekti {
+    padding: 5rem 1rem;
+  }
   .project img {
     width: 100%;
     height: 100%;
   }
-  .desc{
+  .desc {
     width: 100%;
     height: 80%;
     font-size: 0.5rem;
     line-height: 0.8rem;
     padding: 0.5rem;
-   }
+  }
 
-.naslov{
-  height: auto;
- }
-  .skills{
+  .naslov {
+    height: auto;
+  }
+  .skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-   }
-   .skill{
+  }
+  .skill {
     width: 50%;
-
-   }
-   .seeMore {
+  }
+  .seeMore {
     padding: 0.5rem;
     margin: 0.5rem;
     width: 5rem;
- 
-  
   }
   .seeMore a {
     font-size: 0.7rem;
-   }
-   .about p{
-    margin: 1rem 2rem;
-      font-size: 0.8rem;
-    
   }
-   .aboutme{
+  .about p {
+    margin: 1rem 2rem;
+    font-size: 0.8rem;
+  }
+  .aboutme {
     flex-direction: column;
-    /* height: auto; */
-    }
+  }
 
-    #profilePic img {
-      height: 11rem;
-     }
+  #profilePic img {
+    height: 11rem;
+  }
 
-     .about button {
-      margin: 1rem 6rem;
-    
-      padding: 1rem;
-     }
-     .about button a {
-      font-size:0.8rem ;
-       }
-     #form{
-      width: 100%;
-     }
-   .text{
+  .about button {
+    margin: 1rem 6rem;
+
+    padding: 1rem;
+  }
+  .about button a {
+    font-size: 0.8rem;
+  }
+  #form {
+    width: 100%;
+  }
+  .text {
     width: 100%;
     font-size: 50%;
-     }
-   #submit{
+  }
+  #submit {
     width: 50%;
-   }
-/* #form textarea {
-  width: 30rem;
-  height: 15rem;
+  }
 
-} */
-.flex-row{
-flex-direction: column;
-justify-content: space-between;
-gap: 1rem;
-}
+  .flex-row {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
 }
