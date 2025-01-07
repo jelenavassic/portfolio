@@ -93,11 +93,9 @@ display: none;
     background-image: url('../img/backround3.jpg'); 
     background-size: cover; 
     background-position: center;  
-    /* background-repeat: no-repeat;   */
-    height: 100vh; 
+     height: 100vh; 
     width: 100vw; 
-   /* top: 0;
-  left: 0; */
+    
   
 }
 
@@ -105,12 +103,13 @@ display: none;
     display: flex;
     align-items: center;
     justify-content: center;
+ 
   }
   .mainText {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 17rem;
     margin-right: 0;
-  }
+ }
   #main h2 {
     font-size: 1.5rem;
   }
@@ -126,18 +125,20 @@ display: none;
   }
 
   .projekti {
-    padding: 5rem 1rem;
+    padding: 5rem 2rem;
   }
   .project img {
     width: 100%;
     height: 100%;
+    margin-bottom: 0.5rem;
+
   }
   .desc {
     width: 100%;
     height: 80%;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     line-height: 0.8rem;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .naslov {
@@ -149,7 +150,7 @@ display: none;
     place-items: center;
   }
   .skill {
-    width: 50%;
+    width: 70%;
   }
   .seeMore {
     padding: 0.5rem;
@@ -169,6 +170,7 @@ display: none;
 
   #profilePic img {
     height: 11rem;
+
   }
 
   .about button {

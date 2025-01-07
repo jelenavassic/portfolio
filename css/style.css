@@ -43,7 +43,7 @@ body {
   padding: 1rem;
   font-size: 2rem;
   color: #bc9865;
-  width: 35vw;
+  width: 50vw;
   height: 60vh;
 }
 #hamitems {
@@ -53,6 +53,8 @@ body {
   display: block;
 }
 #hamitems ul {
+  position: absolute;
+   left: 0px;
   list-style: none;
   padding: 1rem;
   display: flex;
@@ -60,7 +62,7 @@ body {
   align-items: flex-start;
   justify-content: space-around;
   height: 50vh;
-  width: 35vw;
+  width: 50vw;
   background-color:#EBDFD1;
   animation: up 1s ease-in-out;
 }
